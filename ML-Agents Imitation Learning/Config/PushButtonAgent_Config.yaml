@@ -19,13 +19,13 @@ behaviors:
     reward_signals:
       extrinsic:
         gamma: 0.99
-        strength: 1.0      
+        strength: 1.0
       gail:
-        strength: 0.5
-        demo_path: Demos/PushButtonAgent_Demo.demo
+        strength: 0.3
+        demo_path: Demos\PushButtonAgent_Demo.demo
     behavioral_cloning:
-      strength: 0.5
-      demo_path: Demos/PushButtonAgent_Demo.demo
+      strength: 0.3
+      demo_path: Demos\PushButtonAgent_Demo.demo
     max_steps: 500000
     time_horizon: 64
     summary_freq: 10000

@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
-using Unity.VisualScripting;
 
 public class PushButtonAgent : Agent
 {
@@ -83,9 +80,9 @@ public class PushButtonAgent : Agent
         }
         else if (collision.TryGetComponent(out Wall wall))
         {
-            AddReward(-15f);
+            AddReward(-7f);
             backgroundSpriteRenderer.color = Color.red;
-            EndEpisode();   
+            EndEpisode();
         }
     }
 
