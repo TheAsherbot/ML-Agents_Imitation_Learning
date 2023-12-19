@@ -27,5 +27,5 @@ behaviors:
       strength: 0.3
       demo_path: Demos\PushButtonAgent_Demo.demo
     max_steps: 500000
-    time_horizon: 64
+    time_horizon: 2056
     summary_freq: 10000

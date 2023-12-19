@@ -1,0 +1,29 @@
+{
+    "PushButton": {
+        "checkpoints": [
+            {
+                "steps": 12718,
+                "file_path": "results\\Test4\\PushButton\\PushButton-12718.onnx",
+                "reward": -0.7142857142857143,
+                "creation_time": 1696942627.9859986,
+                "auxillary_file_paths": [
+                    "results\\Test4\\PushButton\\PushButton-12718.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 12718,
+            "file_path": "results\\Test4\\PushButton.onnx",
+            "reward": -0.7142857142857143,
+            "creation_time": 1696942627.9859986,
+            "auxillary_file_paths": [
+                "results\\Test4\\PushButton\\PushButton-12718.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.1.0+cpu"
+    }
+}
